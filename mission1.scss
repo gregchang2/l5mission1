@@ -1,0 +1,122 @@
+// Variables
+$body-font-family: Arial, sans-serif;
+$body-font-size: 16px;
+$body-line-height: 1.5;
+$body-color: #ffffff;
+$body-background-color: #069bff;
+
+$container-max-width: 1200px;
+$container-margin: 0 auto;
+$container-padding: 20px;
+
+$h1-font-size: 32px;
+$h1-text-align: center;
+$h1-margin-top: 0;
+
+$p-text-align: center;
+$p-margin-bottom: 20px;
+
+$form-background-color: #ffffff;
+$form-padding: 20px;
+$form-border-radius: 5px;
+$form-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+$label-display: block;
+$label-margin-bottom: 10px;
+$label-font-weight: bold;
+
+$input-width: 100%;
+$input-padding: 10px;
+$input-border: 1px solid #cccccc;
+$input-border-radius: 3px;
+$input-margin-bottom: 20px;
+$input-font-size: 16px;
+$input-color: #333;
+$input-background-color: #ffffff;
+$input-box-sizing: border-box;
+
+$input-submit-background-color: #00446d;
+$input-submit-color: #ffffff;
+$input-submit-padding: 10px 20px;
+$input-submit-border: none;
+$input-submit-border-radius: 3px;
+$input-submit-font-size: 16px;
+$input-submit-cursor: pointer;
+$input-submit-hover-background-color: #005b96;
+
+$navbar-background-color: #00446d;
+$navbar-color: #ffffff;
+$navbar-padding: 20px;
+$navbar-text-align: center;
+$navbar-font-size: 20px;
+
+// Styles
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $body-background-color;
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+  color: $body-color;
+}
+
+.navbar {
+  background-color: $navbar-background-color;
+  color: $navbar-color;
+  padding: $navbar-padding;
+  text-align: $navbar-text-align;
+  font-size: $navbar-font-size;
+}
+
+.container {
+  max-width: $container-max-width;
+  margin: $container-margin;
+  padding: $container-padding;
+}
+
+h1 {
+  font-size: $h1-font-size;
+  text-align: $h1-text-align;
+  margin-top: $h1-margin-top;
+}
+
+p {
+  text-align: $p-text-align;
+  margin-bottom: $p-margin-bottom;
+}
+
+form {
+  background-color: $form-background-color;
+  padding: $form-padding;
+  border-radius: $form-border-radius;
+  box-shadow: $form-box-shadow;
+}
+
+label {
+  display: $label-display;
+  margin-bottom: $label-margin-bottom;
+  font-weight: $label-font-weight;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: $input-width;
+  padding: $input-padding;
+  border: $input-border;
+  border-radius: $input-border-radius;
+  margin-bottom: $input-margin-bottom;
+  font-size: $input-font-size;
+  color: $input-color;
+  background-color: $input-background-color;
+  box-sizing: $input-box-sizing;
+}
+
+input[type="submit"] {
+  background-color: $input-submit-background-color;
+  color: $input-submit-color;
+  padding: $input-submit-padding;
+  border: $input-submit-border;
+  border-radius: $input-submit-border-radius;
+  font-size: $input-submit-font-size;
+}
